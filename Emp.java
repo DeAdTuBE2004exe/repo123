@@ -10,7 +10,7 @@ public class Emp {
     }
 
     void display(){
-        System.out.printf("Name: \"%s\"\nAge: \"%d\"\nAddress: \"%s\"\n");
+        System.out.printf("Name: \"%s\"\nAge: \"%d\"\nAddress: \"%s\"\n",name,age,address);
     }
 
     public static void main(String args[]){
